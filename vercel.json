@@ -2,10 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "https://www.bfbke.com/$1",
-        "headers": {
-          "Host": "$host"
-        }
+        "dest": "https://www.bfbke.com/$1"
       }
     ]
 }
