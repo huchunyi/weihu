@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "https://www.bfbke.com/$1"
+        "dest": "tokenpay.vs98k.cn/$1"
       }
     ]
 }
