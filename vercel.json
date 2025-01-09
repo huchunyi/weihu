@@ -4,7 +4,9 @@
         "src": "/(.*)",
         "dest": "https://45.205.17.14:443/$1",
         "headers": {
-          "Host": "$host"
+          "Host": "www.bfbke.com",
+          "X-Forwarded-Proto": "https",
+          "X-Forwarded-For": "$remote_addr"
         }
       }
     ]
