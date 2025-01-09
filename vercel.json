@@ -1,11 +1,11 @@
-{
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "https://45.205.17.14:443/$1",
-        "headers": {
-          "Host": "bfbke.com"
-        }
-      }
-    ]
-}
+   {
+       "routes": [
+         {
+           "src": "/(.*)",
+           "dest": "http://45.205.17.14/$1",
+           "headers": {
+             "Host": "www.bfbke.com"
+           }
+         }
+       ]
+   }
