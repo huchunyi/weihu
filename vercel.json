@@ -1,33 +1,11 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "http://45.205.17.14/$1",
-      "headers": {
-        "Host": "www.bfbke.com",
-        "x-forwarded-proto": "https",
-        "x-real-ip": "$remote_addr"
-      },
-      "continue": true
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "http://45.205.17.14/$1",
+        "headers": {
+          "Host": "www.bfbke.com"
         }
-      ]
-    }
-  ]
+      }
+    ]
 }
