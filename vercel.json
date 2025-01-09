@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "45.205.17.14$1",
+      "headers": {"Host": "www.bfbke.com"}
+    }
+  ]
+}
