@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://scdn.q1i.cn/$1",
+            "dest": "https://blog.bfbke.com/$1",
             "headers": {
                 "Host": "scdn.q1i.cn",
                 "Access-Control-Allow-Origin": "*",
