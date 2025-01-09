@@ -2,9 +2,9 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https:/scdn.qil.cn/$1",
+            "dest": "https://scdn.q1i.cn$1",
             "headers": {
-                "Host": "scdn.qil.cn",
+                "Host": "scdn.q1i.cn",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization"
