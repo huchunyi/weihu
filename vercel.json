@@ -2,12 +2,12 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://scdn.q1i.cn/$1",  // 使用源站的 IP 地址
+            "dest": "https://scdn.q1i.cn/$1",
             "headers": {
-                "Host": "scdn.q1i.cn",  // 设置 Host 头为源站的域名
-                "Access-Control-Allow-Origin": "*",  // 允许所有域名访问
-                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",  // 允许的请求方法
-                "Access-Control-Allow-Headers": "Content-Type, Authorization"  // 允许的请求头
+                "Host": "scdn.q1i.cn",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type, Authorization"
             }
         }
     ]
