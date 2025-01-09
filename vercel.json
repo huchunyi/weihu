@@ -1,11 +1,11 @@
-{
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "https://www.bfbke.com/$1",
-        "headers": {
-          "Host": "www.bfbke.com" 
-        }
-      }
-    ]
-}
+   {
+       "routes": [
+         {
+           "src": "/(.*)",
+           "dest": "https://www.bfbke.com/$1", 
+           "headers": {
+             "Host": "www.bfbke.com" 
+           }
+         }
+       ]
+   }
