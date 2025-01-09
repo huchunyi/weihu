@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "http://45.205.17.14/$1",
+        "dest": "https://45.205.17.14/$1",
         "headers": {
           "Host": "www.bfbke.com"
         }
