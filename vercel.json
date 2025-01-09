@@ -6,7 +6,10 @@
         "headers": {
           "Host": "www.bfbke.com",
           "X-Forwarded-Proto": "https",
-          "X-Forwarded-For": "$remote_addr"
+          "X-Forwarded-For": "$remote_addr",
+          "X-Real-IP": "$remote_addr",
+          "X-Forwarded-Host": "www.bfbke.com",
+          "X-Forwarded-Port": "443"
         }
       }
     ]
