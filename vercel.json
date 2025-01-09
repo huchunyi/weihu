@@ -4,9 +4,11 @@
             "src": "/(.*)",
             "dest": "https://45.205.17.14/$1",  // 使用源站的 IP 地址
             "headers": {
-                "Host": "www.bfbke.com"  // 设置 Host 头为源站的域名
-            },
-            "continue": true  // 允许继续处理其他匹配的路由
+                "Host": "www.bfbke.com",  // 设置 Host 头为源站的域名
+                "Access-Control-Allow-Origin": "*",  // 允许所有域名访问
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",  // 允许的请求方法
+                "Access-Control-Allow-Headers": "Content-Type, Authorization"  // 允许的请求头
+            }
         }
     ]
 }
