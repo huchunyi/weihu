@@ -2,9 +2,9 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://blog.bfbke.com/$1",
+            "dest": "https:/scdn.qil.cn/$1",
             "headers": {
-                "Host": "blog.bfbke.com",
+                "Host": "scdn.qil.cn",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization"
