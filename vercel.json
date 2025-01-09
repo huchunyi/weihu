@@ -1,11 +1,12 @@
-   {
-       "routes": [
-         {
-           "src": "/(.*)",
-           "dest": "https://www.bfbke.com/$1", 
-           "headers": {
-             "Host": "www.bfbke.com" 
-           }
-         }
-       ]
-   }
+{
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "http://45.205.17.14/$1",  // 使用源站的 IP 地址
+            "headers": {
+                "Host": "www.bfbke.com"  // 设置 Host 头为源站的域名
+            },
+            "continue": true  // 允许继续处理其他匹配的路由
+        }
+    ]
+}
