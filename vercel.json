@@ -1,16 +1,14 @@
-{ 
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "https://blog.bfbke.com/$1",
-            "headers": {
-                "vercel":"1",
-                "Host": "blog.bfbke.com",
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization"
-            }
-        }
-    ], 
-    "regions": ["hkg1"]
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://blog.bfbke.com/$1",
+      "headers": {
+        "vercel": "1",  // 这是请求头，会发送到目标服务器
+        "Host": "blog.bfbke.com",
+        "X-Forwarded-For": "$remote_addr"  // 可选：传递客户端 IP
+      }
+    }
+  ],
+  "regions": ["hkg1"]
 }
