@@ -11,7 +11,5 @@
             }
         }
     ], 
-    "regions": [
-                "hkg1"
-          ]
+    "regions": ["hkg1"]
 }
