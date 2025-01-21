@@ -4,9 +4,9 @@
       "src": "/(.*)",
       "dest": "https://blog.bfbke.com/$1",
       "headers": {
-        "vercel": "1",  // 这是请求头，会发送到目标服务器
+        "vercel": "1", 
         "Host": "blog.bfbke.com",
-        "X-Forwarded-For": "$remote_addr"  // 可选：传递客户端 IP
+        "X-Forwarded-For": "$remote_addr" 
       }
     }
   ],
