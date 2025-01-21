@@ -1,14 +1,15 @@
-{
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "https://blog.bfbke.com/$1",
-      "headers": {
-        "vercel": "1", 
-        "Host": "blog.bfbke.com",
-        "X-Forwarded-For": "$remote_addr" 
-      }
-    }
-  ],
-  "regions": ["hkg1"]
+{ 
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "https://blog.bfbke.com/$1",
+            "headers": {
+                "Host": "blog.bfbke.com",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type, Authorization"
+            }
+        }
+    ], 
+    "regions": ["hkg1"]
 }
