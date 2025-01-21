@@ -4,6 +4,7 @@
             "src": "/(.*)",
             "dest": "https://blog.bfbke.com/$1",
             "headers": {
+                "vercel": "1",
                 "Host": "blog.bfbke.com",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
