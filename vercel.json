@@ -7,7 +7,10 @@
                 "Host": "blog.bfbke.com",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization"
+                "Access-Control-Allow-Headers": "Content-Type, Authorization",
+                "Content-Type": "text/html; charset=utf-8",
+                "Accept-Encoding": "gzip, deflate, br",
+                "X-Content-Type-Options": "nosniff"
             }
         }
     ], 
