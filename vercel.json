@@ -1,4 +1,4 @@
-{ 
+{
     "routes": [
         {
             "src": "/(.*)",
@@ -7,12 +7,16 @@
                 "Host": "blog.bfbke.com",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-                "Access-Control-Allow-Headers": "Content-Type, Authorization",
-                "Content-Type": "text/html; charset=utf-8",
-                "Accept-Encoding": "gzip, deflate, br",
-                "X-Content-Type-Options": "nosniff"
-            }
+                "Access-Control-Allow-Headers": "Content-Type, Authorization"
+            },
+            "continue": true
         }
-    ], 
+    ],
+    "rewrites": [
+        { 
+            "source": "/(.*)", 
+            "destination": "https://blog.bfbke.com/$1" 
+        }
+    ],
     "regions": ["hkg1"]
 }
