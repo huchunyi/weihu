@@ -8,15 +8,7 @@
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization"
-            },
-            "continue": true
+            }
         }
-    ],
-    "rewrites": [
-        { 
-            "source": "/(.*)", 
-            "destination": "https://blog.bfbke.com/$1" 
-        }
-    ],
-    "regions": ["hkg1"]
+    ]
 }
