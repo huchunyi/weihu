@@ -4,7 +4,7 @@
             "src": "/(.*)",
             "dest": "https://blog.vs98k.cn/$1",
             "headers": {
-                "Host": "www.bfbke.com",
+                "Host": "blog.vs98k.cn",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization"
