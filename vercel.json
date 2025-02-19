@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://blog.bfbke.com/$1",
+            "dest": "https://test3.vs98k.cn/$1",
             "headers": {
                 "Host": "blog.bfbke.com",
                 "Access-Control-Allow-Origin": "*",
