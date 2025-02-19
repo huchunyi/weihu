@@ -2,9 +2,9 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "https://test3.vs98k.cn/$1",
+            "dest": "https://blog.vs98k.cn/$1",
             "headers": {
-                "Host": "blog.bfbke.com",
+                "Host": "www.bfbke.com",
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, Authorization"
